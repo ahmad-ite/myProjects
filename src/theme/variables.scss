@@ -1,0 +1,57 @@
+
+$font-path: "../assets/fonts";
+
+
+
+$app-direction: ltr;
+
+
+@import "ionic.globals";
+
+
+
+
+
+$colors: (
+  primary:    #6495ed,
+  secondary:  #435d8c,
+  danger:     #f53d3d,
+  light:      #ffffff,
+  dark:       #222
+);
+
+// Top toolbar
+//$toolbar-md-background : color ($colors,secondary);
+$toolbar-md-background :#435d8c;
+
+//Bottom tabs
+  $tabs-md-background :#435d8c;
+$tabs-md-tab-color-active :#ffffff;
+$tabs-md-tab-color :#ffffff;
+$tabs-md-tab-text-active :#ffffff;
+
+$list-md-background-color :#435d8c;
+$list-md-text-color :#ffffff;
+
+
+
+
+
+
+
+@import "ionic.theme.default";
+
+
+// Ionicons
+// --------------------------------------------------
+// The premium icon font for Ionic. For more info, please see:
+// http://ionicframework.com/docs/ionicons/
+
+@import "ionic.ionicons";
+
+
+// Fonts
+// --------------------------------------------------
+
+@import "roboto";
+@import "noto-sans";
